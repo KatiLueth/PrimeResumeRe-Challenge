@@ -1,0 +1,76 @@
+body {
+	background-color: #3b3a36;
+	background: linear-gradient(to top, #1B0118, #353430);
+	margin: 60px;
+}
+
+header, section, footer {
+	padding: 30px 60px 30px 60px;	
+	margin: 25px auto 25px auto;
+	background-color: #ffffff;
+	border: 4px solid #c0dfd9;
+	border-radius: 15px;
+	box-shadow: inset 3px 3px 7px rgba(255, 255, 255, 0.50), 3px 3px 10px rgba(0, 0, 0, 0.65); 
+
+	font: normal normal 400 14px/20px 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.h1 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+.h2 {font-size: 18px;
+	font-weight: bold;
+}
+.h3 {font-weight: bold}
+
+header {
+	height: 500px;
+	border-width: 3px;
+	background-size: auto;
+	background: #9ab2b2 url('katiphoto.jpg') center repeat-x;
+}
+
+header h1 { 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 600%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color: #f9fefc;
+    padding-left: 100px;
+    padding-top: 160px;
+}
+
+header p {
+	font-size: 200%;
+	padding-left: 160px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+	text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.65);
+}
+
+footer {
+
+	text-align: center;
+}
+
+hr {
+	width: 60%;
+	height: 4px;
+	margin: 25px auto 25px auto;
+	background-color: #c0dfd9;
+	color: #aaaba6;
+	border: 0 none;
+}
